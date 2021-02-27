@@ -1,0 +1,104 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  text-align: center;
+  color: black;
+  font-size: 1.6rem;
+  font-family: georgia, arial, sans-serif;
+  background: hsl(0,0%,80%);
+}
+
+#main {
+  display: block;
+  margin: auto auto;
+  max-width: 800px;
+  text-align: center;
+  line-height: 1.5;
+  background: white;
+}
+
+#title-image {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+h1 {
+  font-size: 6rem;
+  font-family: "Montez", perpetua, arial, sans-serif;
+  margin-bottom: -20px;
+}
+  @media (max-width: 460px) {
+    h1 {
+      font-size: 5rem;
+  }
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.25rem;
+  }
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+
+#tribute-info {
+  text-align: justify;
+}
+@media (max-width: 460px) {
+  #tribute-info {
+  margin: 0;
+  padding-right: 30px;
+  }}
+
+@media (max-width: 460px) {
+  h2 {
+    font-size: 1.9rem;
+    text-align: right !important;
+  }
+}
+
+h2 {
+  text-align: center;
+}
+
+#trib-link {
+  text-align: center;
+}
+
+ul {
+  max-width: 600px;
+  text-align: justify;
+  margin: 0 auto 50px auto;
+}
+
+li {
+  margin: 20px 0;
+}
+
+#end-tribute {
+  max-width: 400px;
+  text-align: left;
+  font-style: italic;
+  margin: 0 auto 50px auto;
+}
+
+@media (max-width: 460px) {
+  #end-tribute {
+    padding-left: 10px;
+    text-align: center;
+  }
+}
+
+#trib-link {
+  padding-bottom: 30px;
+  text-align: center;
+}
